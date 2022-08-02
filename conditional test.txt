@@ -1,0 +1,11 @@
+
+var age=prompt("enter your age")
+if(Number(age) < 18){
+  alert("sorry you can't able to drive a car on highway");
+}
+else if(Number(age) === 18){
+  alert("congrats you are able for driving");
+}
+else{
+  alert("have a safe drive")
+}

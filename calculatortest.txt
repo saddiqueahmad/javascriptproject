@@ -1,0 +1,15 @@
+var x=prompt("please enter 1st value");
+var y=prompt("please enter 2nd value");
+var result1=Number(x)+Number(y);
+var result2=Number(x)-Number(y);
+var result3=Number(x)*Number(y);
+var result4=Number(x)/Number(y);
+alert(result1);
+alert(result2);
+alert(result3);
+alert(result4);
+"sum = "+result1+" subtraction = "+result2+" mltiplication = "+result3+"division = "+result4
+
+
+Ans:1st value=4 2nd value=4 ;
+'sum = 8 subtraction = 0 mltiplication = 16 division = 1'
