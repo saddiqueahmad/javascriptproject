@@ -1,0 +1,41 @@
+ 1. Create an object that has properties "username" and "password". Fill those values in with strings.
+ans:
+var user={
+	username : "hailey",
+	password : "hero",
+}
+
+console.log(user);
+
+ 2. Create an array which contains the object you have made above and name the array "database".
+ans:
+var database = [
+	{
+		username : "hailey",
+		password : "zero"
+	}
+];
+
+console.log(database);
+
+ 3. Create an array called "newsfeed" which contains 3 objects with properties "username" and "timeline".
+ans:
+
+var newsfeed = [
+	{	
+		username : "hailey",
+		timeline : "zero"
+	},
+	
+	{	
+		username : "tailey",
+		timeline : "one"
+	},
+	
+	{	
+		username : "kailey",
+		timeline : "two"
+	}	
+];
+
+console.log(newsfeed);
