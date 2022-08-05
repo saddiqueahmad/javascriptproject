@@ -10,7 +10,7 @@ var list = [
 
 for (var i=0; i < list.length; i++) {
 
-	console.log(list[i] + "!");
+	console.log(list[i], i);
 
 }
 
@@ -34,3 +34,11 @@ do {
    counterTwo--;
 
 }while (counterTwo > 0);
+
+/* foreach loop */
+
+list.forEach(function(list, i) {
+
+ console.log(list, i);
+
+})
